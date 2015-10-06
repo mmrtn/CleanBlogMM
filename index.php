@@ -105,7 +105,7 @@
                 <?php
                 foreach ($posts as $post) {?>
                     <div class="post-preview">
-                        <a href="post.php">
+                        <a href="post.php?id=<?=$post['post_id'] ?>">
                             <h2 class="post-title">
                                 <?=$post['post_title'] ?>
                             </h2>
